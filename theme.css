@@ -1,0 +1,82 @@
+* {
+    font-family: Roboto, 'Segoe UI', Arial, 'Microsoft Jhenghei', sans-serif;
+    font-size: 81.25%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav ul li {
+    padding: 20px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#logo {
+    margin-top: 200px;
+    margin-bottom: 2px;
+}
+
+.main-content p {
+    position: relative;
+    top: -28px;
+    left: 175px;
+    font-weight: bold;
+    color: rgb(78, 78, 134);
+}
+
+.bar {
+    margin-top: 10px;
+    border-radius: 30px;
+    border: 1px solid #dcdcdc;
+    display: block;
+    width: 575px;
+}
+
+.bar:focus-within {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline: none;
+}
+
+#searchBar {
+    height: 45px;
+    border: none;
+    width: 500px;
+    font-size: 16px;
+}
+
+.buttons {
+    margin-top: 25px;
+}
+
+.button {
+    background-color: #f1f1f1;
+    border: none;
+    font-size: 12px;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+.button:hover {
+    padding: 9px 19px;
+    border: 1px solid #dcdcdc;
+}
+
