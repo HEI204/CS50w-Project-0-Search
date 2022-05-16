@@ -6,5 +6,7 @@ It is the project in the course called CS50’s Web Programming with Python and 
 
 - Your website should have at least three pages: one for regular Google Search (which must be called index.html), one for Google Image Search, and one for Google Advanced Search.
   - On the Google Search page, there should be links in the upper-right of the page to go to Image Search or Advanced Search. On each of the other two pages, there should be a link in the upper-right to go back to Google Search.
+- On the Google Search page, the user should be able to type in a query, click “Google Search”, and be taken to the Google search results for that page.
+  - Like Google’s own, your search bar should be centered with rounded corners. The search button should also be centered, and should be beneath the search bar.
 
 
